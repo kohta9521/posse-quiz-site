@@ -42,7 +42,7 @@ img {
 /* END HEADER
 --------------------------*/
 
-/* START hero
+/* START HERO
 --------------------------*/
 .hero {
     width: 100%;
@@ -63,3 +63,27 @@ img {
     top: -220px;
     left: 120px;
 }
+/* END HERO
+--------------------------*/
+
+.quiz {
+    width: 900px;
+    margin: 120px auto 0 auto;
+}
+
+/* START Q1
+--------------------------*/
+.quiz-icon {
+    width: 65px;
+    height: 50px;
+    background-color: #0071BC;
+    border-radius: 25%;
+    text-align: center;
+}
+.quiz-icon h2 {
+    color: white;
+    font-size: 26px;
+padding-top: 5px;
+}
+/* END Q1
+--------------------------*/
