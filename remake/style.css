@@ -262,6 +262,9 @@ li {
     margin-top: 22px;
     margin-left: 20px;
 }
+.js__hide {
+    display: none;
+}
 /* END QUIZ-1
 ----------------------------*/
 /* END QUIZ
