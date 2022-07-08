@@ -152,6 +152,116 @@ li {
     text-align: center;
     color: white;
 }
+.choices {
+    width: 100%;
+    height: 80px;
+}
+.choices__list {
+    display: flex;
+}
+.choices__item {
+    display: flex;
+    justify-content: space-between;
+    width: 312px;
+    height: 80px;
+    margin: 0 auto;
+    background: #EFF2F5;
+    border: 5px solid #cbcbcb;
+    border-radius: 8px;
+}
+.item--a {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.item--triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 9px solid #000000;
+    border-right: 0;
+    top: 30px;
+    right: 30px;
+}
+.answer__true {
+    width: 100%;
+    height: 140px;
+    margin-top: 30px;
+    background: #FFF2F5;
+    border-radius: 8px;
+}
+.true__item {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    color: #E34E70;
+    top: 20px;
+    left: 20px;
+}
+.true__coment,
+.false__coment {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.true__coment--a,
+.falese__coment--a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 180%;
+}
+.true__item--a,
+.false__item--a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 180%;
+    margin-top: 7px;
+    margin-left: 30px;
+}
+.answer__false {
+    width: 100%;
+    height: 140px;
+    margin-top: 30px;
+    background: #EFF2F5;
+    border-radius: 8px;
+}
+.false__item {
+    position: relative;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0071BC;
+    top: 20px;
+    left: 20px;
+}
+.coment {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    background: #F6F6F6;
+    border-radius: 8px;
+    display: flex;
+}
+.coment__icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.coment__item {
+    width: 80%;
+    height: 80px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 180%;
+    margin-top: 22px;
+    margin-left: 20px;
+}
 /* END QUIZ-1
 ----------------------------*/
 /* END QUIZ
