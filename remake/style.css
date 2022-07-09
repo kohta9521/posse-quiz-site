@@ -168,6 +168,11 @@ li {
     background: #EFF2F5;
     border: 5px solid #cbcbcb;
     border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    font-weight: 700;
+    padding-top: 23px;
+    padding-left: 20px;
 }
 .item--a {
     display: block;
@@ -186,7 +191,7 @@ li {
     border-bottom: 5px solid transparent;
     border-left: 9px solid #000000;
     border-right: 0;
-    top: 30px;
+    top: 7px;
     right: 30px;
 }
 .answer__true {
@@ -262,8 +267,14 @@ li {
     margin-top: 22px;
     margin-left: 20px;
 }
-.js__hide {
+.js__hide--a {
     display: none;
+}
+.js__hide--f {
+    display: none;
+}
+.on {
+    display: block;
 }
 /* END QUIZ-1
 ----------------------------*/
